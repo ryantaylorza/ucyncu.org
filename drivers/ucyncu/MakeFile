@@ -1,0 +1,20 @@
+# UCYNCU Audio Driver
+
+**UCYNCU** is a Linux audio driver designed for reliable and synchronized audio streaming over TCP/IP networks. It aims to provide a robust and flexible solution for professional audio applications, with compatibility for Axia, Livewire+ AES67, and Dante devices.
+
+## Features
+
+* **TCP-Based Transport:** Leverages TCP's reliability and congestion control for stable audio streaming.
+* **Centralized Server:**  A UCYNCU server manages connections, routing, and control.
+* **ALSA Integration:** Presents itself as an ALSA device for seamless integration with Linux audio applications.
+* **Compatibility:** Aims for compatibility with Axia, Livewire+ AES67, and Dante ecosystems.
+
+## Building and Installation
+
+1. **Prerequisites:**
+   * Linux kernel headers and build tools
+   * ALSA development libraries
+
+2. **Compilation:**
+   ```bash
+   make
